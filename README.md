@@ -25,10 +25,10 @@ A Python script that scrapes and processes election-related data from www.volby.
 
 ## Arguments
 ```
-<**URL**> — The full URL to the election results page you want to scrape.
+<URL> — The full URL to the election results page you want to scrape.
 Example:
 https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=12&xnumnuts=7103
-<**OUTPUT_FILE**> — The name of the output CSV file where scraped data will be saved.
+<OUTPUT_FILE> — The name of the output CSV file where scraped data will be saved.
 Example:
 results_prostejov.csv
 ```
@@ -36,7 +36,7 @@ results_prostejov.csv
 # Execution Sample
 ```
 Parameter 1: https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=12&xnumnuts=7103
-Parameter 2: zdar3.csv
+Parameter 2: results_prostejov.csv
 Opening https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=12&xnumnuts=7103
 Opening https://www.volby.cz/pls/ps2017nss/ps311?xjazyk=CZ&xkraj=12&xobec=506761&xvyber=7103
 Opening https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=12&xnumnuts=7103
